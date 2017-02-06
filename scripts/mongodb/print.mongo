@@ -1,0 +1,2 @@
+use test;
+db.t.find({"zipcode":"63109"}).forEach(function(f){print(tojson(f, '', true));});
